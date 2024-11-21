@@ -45,7 +45,7 @@ jobs:
         # https://github.com/actions/checkout
         uses: actions/checkout@v4
         with:
-          repository: 'xpack/xpm-cli-ts'
+          repository: 'xpack/xpm-js'
           ref: 'website'
           # The full history, required to compute lastUpdatedAt
           fetch-depth: 0
