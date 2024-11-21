@@ -1,0 +1,39 @@
+{
+  "name": "xpm-preview",
+  "version": "0.0.0",
+  "description": "Preview for the new xpm web; (preview for now, to be renamed as xpm)",
+  "main": "",
+  "scripts": {
+    "generate-top-commons": "bash node_modules/@xpack/npm-packages-helper/maintenance-scripts/generate-top-commons.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpack/xpm-preview.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Liviu Ionescu",
+    "email": "ilg@livius.net",
+    "url": "https://github.com/ilg-ul"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xpack/xpm-preview/issues"
+  },
+  "homepage": "https://xpack.github.io/xpm-preview/",
+  "dependencies": {},
+  "devDependencies": {
+    "json": "^11.0.0",
+    "liquidjs": "^10.18.0",
+    "del-cli": "^6.0.0"
+  },
+  "bundleDependencies": [],
+  "config": {
+    "isWebDeployOnly": "true",
+    "websiteRepo": "xpack/xpm-cli-ts"
+  },
+  "engines": {
+    "node": " >=18.0.0"
+  }
+}
