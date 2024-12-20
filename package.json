@@ -1,14 +1,20 @@
 {
-  "name": "xpm-preview",
+  "name": "xpm",
   "version": "0.0.0",
-  "description": "Preview for the new xpm web; (preview for now, to be renamed as xpm)",
+  "description": "Website for the new xpm project",
   "main": "",
   "scripts": {
+    "npm-install": "npm install",
+    "npm-link-helpers": "npm link @xpack/npm-packages-helper @xpack/docusaurus-template-liquid",
+    "npm-link": "npm link",
+    "npm-outdated": "npm outdated",
+    "npm-update": "npm update",
+    "deep-clean": "del-cli node_modules package-lock.json",
     "generate-top-commons": "bash node_modules/@xpack/npm-packages-helper/maintenance-scripts/generate-top-commons.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xpack/xpm-preview.git"
+    "url": "git+https://github.com/xpack/xpm.git"
   },
   "keywords": [],
   "author": {
@@ -19,9 +25,9 @@
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xpack/xpm-preview/issues"
+    "url": "https://github.com/xpack/xpm/issues"
   },
-  "homepage": "https://xpack.github.io/xpm-preview/",
+  "homepage": "https://xpack.github.io/xpm/",
   "dependencies": {},
   "devDependencies": {
     "json": "^11.0.0",

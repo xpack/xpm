@@ -1,3 +1,3 @@
-# xpm-preview
+# xpm
 
-Web site for the xpm web; (preview for now, to be renamed as xpm)
+Website for the xpm project.
