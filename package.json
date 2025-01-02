@@ -10,7 +10,7 @@
     "npm-outdated": "npm outdated",
     "npm-update": "npm update",
     "deep-clean": "del-cli node_modules package-lock.json",
-    "generate-top-commons": "bash node_modules/@xpack/npm-packages-helper/maintenance-scripts/generate-top-commons.sh"
+    "generate-top-commons": "bash node_modules/@xpack/npm-packages-helper/maintenance-scripts/generate-top-commons.sh --xpack"
   },
   "repository": {
     "type": "git",
