@@ -37,7 +37,8 @@
   "bundleDependencies": [],
   "config": {
     "isWebDeployOnly": "true",
-    "websiteRepo": "xpack/xpm-js"
+    "websiteRepo": "xpack/xpm-js",
+    "websiteRepoBranch": "website"
   },
   "engines": {
     "node": " >=18.0.0"
