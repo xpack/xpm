@@ -36,8 +36,7 @@
   },
   "bundleDependencies": [],
   "config": {
-    "isWebDeployOnly": "true",
-    "isWebPreview": "true"
+    "isWebDeployOnly": "true"
   },
   "engines": {
     "node": " >=18.0.0"
