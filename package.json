@@ -4,13 +4,13 @@
   "description": "Website for the new xpm project",
   "main": "",
   "scripts": {
+    "generate-top-commons": "bash node_modules/@xpack/npm-packages-helper/maintenance-scripts/generate-top-commons.sh --xpack",
     "npm-install": "npm install",
     "npm-link-helpers": "npm link @xpack/npm-packages-helper @xpack/docusaurus-template-liquid",
     "npm-link": "npm link",
     "npm-outdated": "npm outdated",
     "npm-update": "npm update",
-    "deep-clean": "del-cli node_modules package-lock.json",
-    "generate-top-commons": "bash node_modules/@xpack/npm-packages-helper/maintenance-scripts/generate-top-commons.sh --xpack"
+    "deep-clean": "del-cli node_modules package-lock.json"
   },
   "repository": {
     "type": "git",
@@ -30,15 +30,14 @@
   "homepage": "https://xpack.github.io/xpm/",
   "dependencies": {},
   "devDependencies": {
+    "del-cli": "^6.0.0",
     "json": "^11.0.0",
-    "liquidjs": "^10.18.0",
-    "del-cli": "^6.0.0"
+    "liquidjs": "^10.19.1"
   },
   "bundleDependencies": [],
   "config": {
     "isWebDeployOnly": "true",
-    "websiteRepo": "xpack/xpm-js",
-    "websiteRepoBranch": "website"
+    "isWebPreview": "true"
   },
   "engines": {
     "node": " >=18.0.0"
